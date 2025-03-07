@@ -1,7 +1,7 @@
 import axios from 'axios';
 import moment from 'moment';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:9000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://task-management-server-sbny.onrender.com/api/';
 
 // Create axios instance with default config
 const api = axios.create({
